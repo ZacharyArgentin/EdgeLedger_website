@@ -6,3 +6,37 @@
 .text-secondary {
     color: #0284d0;
 }
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    background: #28a745;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-primary {
+    background: #28a745;
+    color: #fff;
+}
+
+.btn-secondary {
+    background: #0284d0;
+    color: #fff;
+}
+
+.btn-dark {
+    background: #333;
+    color: #fff
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
