@@ -78,6 +78,14 @@ img {
     color: #fff;
 }
 
+.hero.blog {
+    background-image: url("../img/home/blog.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
 .hero .content {
     display: flex;
     flex-direction: column;
@@ -174,6 +182,30 @@ img {
 .callback-form .btn {
     padding: 12px 0;
     margin-top: 20px;
+}
+
+/* Post */
+
+.post {
+    padding: 50px 30px;
+}
+
+.post h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: #333 solid 1px;
+}
+
+.post .meta {
+    margin-bottom: 30px;
+}
+
+.post img {
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
 }
 
 /* Footer */
