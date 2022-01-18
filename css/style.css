@@ -10,7 +10,7 @@ body {
     font-family: "Open Sans", sans-serif;
     background: #fff;
     color: #333;
-    line-height: 1.6rem;
+    line-height: 1.6;
 }
 
 ul {
@@ -24,7 +24,7 @@ a{
 
 h1, h2 {
     font-weight: 300;
-    line-height: 2rem;
+    line-height: 1.2em;
 }
 
 p {
@@ -46,8 +46,8 @@ img {
     height: 70px;
     width: 100%;
     position: fixed;
-    /* top: 0px;
-    padding: 0 30px; */
+    top: 0px;
+    padding: 0 30px;
 }
 
 .navbar ul {
@@ -197,4 +197,34 @@ img {
 
 .footer .social > * {
     margin-right: 30px;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    /* reset logo padding */
+    .navbar .logo {
+        padding: 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 3px;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .column, .flex-grid .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+
 }
